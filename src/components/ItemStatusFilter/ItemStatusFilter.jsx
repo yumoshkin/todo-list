@@ -2,8 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import cn from 'classnames';
 
-import './ItemStatusFilter.css';
-
 const ItemStatusFilter = (props) => {
   const { filter, onChange } = props;
 
